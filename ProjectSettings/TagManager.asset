@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - PlayerSprite
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FieldSky
+    uniqueID: 2599714479
+    locked: 0
+  - name: FieldBackground
+    uniqueID: 2711331373
+    locked: 0
+  - name: FieldObjectLayer
+    uniqueID: 569875393
+    locked: 0
+  - name: PlayerLayer
+    uniqueID: 1923806115
+    locked: 0
+  - name: FIeldSoil
+    uniqueID: 2480958305
+    locked: 0
+  - name: TopMost
+    uniqueID: 3279953243
+    locked: 0

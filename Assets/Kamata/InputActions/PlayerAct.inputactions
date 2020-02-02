@@ -1,0 +1,137 @@
+{
+    "name": "PlayerAct",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "f2bc45d6-dab8-4002-a384-177015dec834",
+            "actions": [
+                {
+                    "name": "Forward",
+                    "type": "Button",
+                    "id": "3407325f-f878-422f-9aa8-421adf4f1bdc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "9eac08f3-8aaa-450a-b37d-b2707d8f829a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "6869d28f-ae39-47f2-babc-a359630fadf8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aebef09a-2ae8-4d53-a2a1-10725fdf9402",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c5476154-d771-45d5-8f0c-790c59cd2898",
+                    "path": "<SwitchProControllerHID>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "ab99ed9c-9d72-4a44-8b70-10e5cbeae20e",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "87193fa1-f134-4352-914e-e97c9f48ce97",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f611bcf6-de5f-4854-87e1-39e1c27ab5f0",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "54d476b7-79bb-423f-b92a-92853d572eb3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "0bb74206-4efe-4f51-84ec-d314066d8929",
+                    "path": "<SwitchProControllerHID>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f025b97f-b9f5-46a3-8076-6d093d739632",
+                    "path": "<SwitchProControllerHID>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "1e0f9b25-ce56-468f-9459-cffa6b031f86",
+                    "path": "<SwitchProControllerHID>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8787851074510327242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8787851074510327240}
+  - component: {fileID: 8787851074510327243}
+  - component: {fileID: 8787851074510327241}
+  m_Layer: 0
+  m_Name: PlayerInputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8787851074510327240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787851074510327242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6403819, y: -0.01514893, z: -1.7876428}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8787851074510327243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787851074510327242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NotificationBehavior: 0
+  m_MaxPlayerCount: 2
+  m_AllowJoining: 1
+  m_JoinBehavior: 2
+  m_PlayerJoinedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlayerLeftEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_JoinAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Action
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f108be4c-2af5-4c62-8999-f13228a478e9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+    m_Reference: {fileID: 0}
+  m_PlayerPrefab: {fileID: 697817342629176737, guid: 11f6352d468f471479eb5b415c7b52a3,
+    type: 3}
+  m_SplitScreen: 0
+  m_MaintainAspectRatioInSplitScreen: 0
+  m_FixedNumberOfSplitScreens: -1
+  m_SplitScreenRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &8787851074510327241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787851074510327242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c42026f5b54684fa77a4747c248cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isKeyboardMode: 0
+  playerPrefab: {fileID: 697817342629176737, guid: 11f6352d468f471479eb5b415c7b52a3,
+    type: 3}
+  battleUIManager: {fileID: 0}
+  PlayerKeyboardInputActions:
+  - {fileID: -944628639613478452, guid: d15ca054914b743c18cf898702cb3279, type: 3}
+  - {fileID: -944628639613478452, guid: 8d61efb6322e9485197bce8f04e6d7c3, type: 3}
+  PlayerDefaultSprites:
+  - {fileID: 21300000, guid: fa349d4822f810048bf10cc6b1543522, type: 3}
+  - {fileID: 21300000, guid: 14ade04d850b3e54987d9e697d7f7cc6, type: 3}
+  PlayerAnimators:
+  - {fileID: 9100000, guid: afb5e5e127329104ba35a5e028979206, type: 2}
+  - {fileID: 9100000, guid: 18d96c1c6ad2c294ba0204ac38c5c1b9, type: 2}

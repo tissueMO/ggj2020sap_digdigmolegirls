@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4864717639763914614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4864717639763914608}
+  - component: {fileID: 4864717639763914615}
+  m_Layer: 0
+  m_Name: BattleUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4864717639763914608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4864717639763914614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -202.51677, y: 26.952398, z: -93.78828}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4864717639763914615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4864717639763914614}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6277975fb7a8664a899c5046e0e6ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winTextCanvas: {fileID: 0}
+  countDownCanvas: {fileID: 0}
+  bgm_0: {fileID: 8300000, guid: 049fba4b461257f4d891aed8691aa04f, type: 3}
+  bgm_1: {fileID: 8300000, guid: 7981420e05cc9784e8f075ac775cc8ce, type: 3}
+  acceptSE: {fileID: 8300000, guid: 9bea422888a08d24e86abb268701880f, type: 3}
+  countDown1: {fileID: 21300000, guid: 4c0b0325ebd47a846a6b354f628214fc, type: 3}
+  countDown2: {fileID: 21300000, guid: 760dfa32be7741747bcbd5ab0b1116ae, type: 3}
+  countDown3: {fileID: 21300000, guid: e485e7daca02bef408df0376a9f1a2cb, type: 3}
+  Go: {fileID: 21300000, guid: 882e565faf0e5ca4ab377aa4a6dc1bfb, type: 3}
+  isPausing: 0
+  titlePhaseManaer: {fileID: 0}
+  countSE:
+  - {fileID: 8300000, guid: 4badb1bfb40d33f4384cc7a99fc420a2, type: 3}
+  - {fileID: 8300000, guid: 800bcc5001e972944b1a190de1c62022, type: 3}
+  - {fileID: 8300000, guid: cea0fd42f4af7644ab76ca7751a77d49, type: 3}
